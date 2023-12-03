@@ -1,0 +1,7 @@
+/** @type {import('eslint').Linter.Config} */
+{
+  "extends": ["@remix-run/eslint-config", "@remix-run/eslint-config/node"],
+  "rules": {
+    "indent": ["error", 4]
+  }
+}
