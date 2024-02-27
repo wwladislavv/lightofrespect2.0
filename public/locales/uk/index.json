@@ -1,0 +1,25 @@
+{
+    "title": "Промінь Поваги",
+    "header": {
+        "logo": {
+            "src": "/assets/promin_ukr.svg",
+            "alt": "lightofrespect"
+        },
+        "nav": {
+            "about": "Про нас",
+            "help": "Як допомогти?",
+            "contacts": "контакти"
+        }
+    },
+    "sectionPartners": {
+        "title": "Партнери"
+    },
+    "sectionContacts": {
+        "title": "Контакти"
+    },
+    "footer": {
+        "help": "Як допомогти?",
+        "rights": "Усі права захищені",
+        "logo": "/assets/promin_ukr.svg"
+    }
+}

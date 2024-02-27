@@ -1,0 +1,25 @@
+{
+    "title": "Light of Respect",
+    "header": {
+        "logo": {
+            "src": "/assets/promin_eng.svg",
+            "alt": "lightofrespect"
+        },
+        "nav": {
+            "about": "About us",
+            "help": "How to help?",
+            "contacts": "contacts"
+        }
+    },
+    "sectionPartners": {
+        "title": "Partners"
+    },    
+    "sectionContacts": {
+        "title": "Contacts"
+    },
+    "footer": {
+        "help": "How to help?",
+        "rights": "All rights reserved",
+        "logo": "/assets/promin_ukr.svg"
+    }    
+}

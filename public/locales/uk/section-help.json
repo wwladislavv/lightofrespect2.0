@@ -1,0 +1,143 @@
+{
+    "title": "Чому ми потребуємо вашої допомоги?",
+    "description": "Променю Поваги дуже важко, є термінові запити, які не можна відкладати – фонду потрібне авто, щоб ефективніше та швидше доставляти гуманітарну допомогу мешканцям в місті Київ та на гарячих напрямках.\n                            <br />\n                            <br />\n                            Тільки нещодавно ми надавали допомогу: літнім людям та інвалідам, дитячому реабілітаційному центру в Києві. Наразі надаємо гуманітарну допомогу тваринкам, Зброєним Силам України, переселенцям та людям, які залишились мешкати в зоні бойових дій. Наші ресурси поступово закінчуються і ми дуже потребуємо гуманітарної та фінансової підтримки.",
+    "numbers": {
+        "requestsPerDay": {
+            "value": "10+",
+            "specification": "Запитів щодня"
+        },
+        "gotHelped": {
+            "value": "1000+",
+            "specification": "Отримали допомогу"
+        },
+        "categoriesOfNeeds": {
+            "value": "26+",
+            "specification": "Категорій потреб"
+        },
+        "checkDaily": {
+            "value": "5000+",
+            "specification": "Середня сума чеку щодня"
+        }
+    },
+    "requisites": {
+        "uah": {
+            "tab": "Рахунок в Гривнях",
+            "companyName": {
+                "title": "Назва компанії",
+                "value": "БО 'БФ 'ПРОМІНЬ ПОВАГИ"
+            },
+            "address": {
+                "title": "Адреса офісу",
+                "value": "Київ, вул. Суздальська, 13, поверх 2"
+            },
+            "iban": {
+                "title": "IBAN Рахунок (Гривня)",
+                "value": "UA07 305299 00000 26009016708022"
+            },
+            "bankName": {
+                "title": "Назва банку",
+                "value": "\"Приватбанк\", вул. Грушевського, 1Д, Київ, 01001, Україна"
+            },
+            "receiverCode": {
+                "title": "Код отримувача",
+                "value": "44845258"
+            },
+            "transactionComment": {
+                "title": "Коментар до транзакції",
+                "value": "Благодійний внесок НА ГУМАНІТАРНУ ДОПОМОГУ"
+            }
+        },
+        "usd": {
+            "tab": "Рахунок в Доларах",
+            "companyName": {
+                "title": "Назва компанії",
+                "value": "CF LIGHT OF RESPECT"
+            },
+            "address": {
+                "title": "Адреса офісу",
+                "value": "13/2 Suzdalska STR. , KYIV,01001, UKRAINE"
+            },
+            "iban": {
+                "title": "IBAN Code (US Dollar)",
+                "value": "UA54 305299 00000 26001006708494"
+            },
+            "bankName": {
+                "title": "Назва банку",
+                "value": "JSC CB \"PRIVATBANK\", 1D HRUSHEVSKOHO STR., KYIV, 01001, UKRAINE"
+            },
+            "receiverCode": {
+                "title": "Bank SWIFT Code",
+                "value": "PBANUA2XXXX"
+            },
+            "transactionComment": {
+                "title": "Purpose of payment",
+                "value": "Charitable donation FOR HUMANITARIAN AID"
+            }
+        },
+        "eur": {
+            "tab": "Рахунок в євро",
+            "companyName": {
+                "title": "Назва компанії",
+                "value": "CF LIGHT OF RESPECT"
+            },
+            "address": {
+                "title": "Адреса офісу",
+                "value": "13/2 Suzdalska STR. , KYIV,01001, UKRAINE"
+            },
+            "iban": {
+                "title": "IBAN Code (US Dollar)",
+                "value": "UA87 305299 00000 26002026709751"
+            },
+            "bankName": {
+                "title": "Назва банку",
+                "value": "JSC CB \"PRIVATBANK\", 1D HRUSHEVSKOHO STR., KYIV, 01001, UKRAINE"
+            },
+            "receiverCode": {
+                "title": "Bank SWIFT Code",
+                "value": "PBANUA2X"
+            },
+            "transactionComment": {
+                "title": "Purpose of payment",
+                "value": "Charitable donation FOR HUMANITARIAN AID"
+            }
+        },
+        "crypto": {
+            "tab": "Крипто рахунок",
+            "BUSD": {
+                "title": "BUSD Адреса для поповнення",
+                "value": "Oxaf6b75e85e54928986855ad53808 fa2c823c3fe"
+            },
+            "BUSDNetwork": {
+                "title": "Мережа",
+                "value": "BNB Smart Chain (BEP20)"
+            },
+            "ETH": {
+                "title": "ЕТН Адреса для поповнення",
+                "value": "Oxaf6b75e85e54928986855ad53808 fa2c823c3fe"
+            },
+            "ETHNetwork": {
+                "title": "Мережа",
+                "value": "Ethereum (ERC20)"
+            },
+            "USDT": {
+                "title": "USDT Адреса для поповнення",
+                "value": "TJyPKRH8fxtUdrf1K1NFZm9vd3z9V yHrOh"
+            },
+            "USDTNetwork": {
+                "title": "Мережа",
+                "value": "Tron (TRC20)"
+            },
+            "ВТС": {
+                "title": "ВТС Адреса для поповнення",
+                "value": "Oxaf6b75e85e54928986855ad53808 fa2c823c3fe"
+            },
+            "ВТСNetwork": {
+                "title": "Мережа",
+                "value": "BNB Smart Chain (BEP20)"
+            }
+        },
+        "paypal": {
+            "value": "mitinaalina1990@gmail.com"
+        }
+    }
+}

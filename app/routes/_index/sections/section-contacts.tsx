@@ -1,12 +1,16 @@
 import React from 'react';
 
-type Props = any;
+type Props = {
+    title: string;
+};
 
-const SectionContacts = (props: Props) => {
+const SectionContacts = ({
+    title,
+}: Props) => {
     return (
         <section id="contacts" className="section-contacts">
             <div className="container">
-                <h4 className="title">Контакти</h4>
+                <h4 className="title">{title}</h4>
                 <div className="d-flex justify-content-between">
                     <a
                         className="email"

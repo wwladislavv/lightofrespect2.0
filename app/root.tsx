@@ -1,12 +1,28 @@
-import type { MetaFunction, LinksFunction } from "@remix-run/node";
+import type {
+    MetaFunction, LinksFunction, LoaderFunctionArgs,
+} from "@remix-run/node";
+import { json } from "@remix-run/node";
 import {
-    Links,
-    LiveReload,
-    Meta,
-    Outlet,
-    Scripts,
-    ScrollRestoration,
+    Links, LiveReload, Meta,
+    Outlet, Scripts, ScrollRestoration,
+    useLoaderData,
 } from "@remix-run/react";
+import { useChangeLanguage } from "remix-i18next";
+import { useTranslation } from "react-i18next";
+
+import i18next from "~/i18n.server";
+import i18nextOptions from "~/i18nextOptions";
+
+export async function loader({ request }: LoaderFunctionArgs) {
+    const locale = await i18next.getLocale(request);
+    const t = await i18next.getFixedT(request, 'index')
+    const title = t('title');
+    return json({ locale, title });
+}
+
+export let handle = {
+    i18n: i18nextOptions.defaultNS,
+};
 
 export const meta: MetaFunction = () => [
     {
@@ -16,13 +32,15 @@ export const meta: MetaFunction = () => [
         name: "viewport",
         content: "width=device-width,initial-scale=1",
     },
-    {
-        title: "Light of Respect",
-    },
 ];
 
 export const links: LinksFunction = () => {
     return [
+        {
+            rel: "icon",
+            href: '/assets/24.png',
+            type: "image/png",
+        },
         {
             rel: "preconnect",
             href: "https://fonts.googleapis.com",
@@ -42,16 +60,27 @@ export const links: LinksFunction = () => {
         },
         {
             rel: "stylesheet",
+            href: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-utilities.min.css",
+        },
+        {
+            rel: "stylesheet",
             href: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap-reboot.min.css",
         }
     ];
 };
 
 export default function App() {
+    const { locale, title } = useLoaderData<typeof loader>();
+
+    const { i18n } = useTranslation();
+
+    useChangeLanguage(locale);
+    
     return (
-        <html lang="uk">
+        <html lang={locale} dir={i18n.dir()}>
             <head>
                 <Meta />
+                <title>{title}</title>
 
                 <Links />
             </head

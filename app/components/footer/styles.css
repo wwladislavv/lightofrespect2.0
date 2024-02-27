@@ -1,0 +1,86 @@
+.footer .footer-top {
+    padding: 24px 0;
+    border-top: 1px solid #616161;
+    border-bottom: 1px solid #616161;
+}
+.footer .footer-top .navigation .navigation-link {
+    margin-bottom: 21px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--bs-primary);
+}
+.footer .footer-top .navigation .navigation-link:last-child {
+    margin-bottom: 0;
+}
+.footer .footer-top .navigation .navigation-link:hover {
+    text-decoration: underline;
+}
+.footer .footer-top .navigation .navigation-link.language-toggle {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 12px;
+}
+.footer .footer-top .navigation .navigation-link.language-toggle:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer .footer-top .navigation .navigation-link.language-toggle .language-item-inner {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    right: 0;
+    display: none;
+    text-decoration: underline;
+    color: var(--bs-primary);
+}
+.footer .footer-top .navigation .navigation-link .icon-arrow {
+    transform: rotate(90deg);
+}
+.footer .footer-top .navigation .navigation-link.language-toggle .language-item-inner:hover {
+    text-decoration: none;
+}
+.footer .footer-top .navigation .navigation-link.language-toggle:hover .language-item-inner {
+    display: block;
+}
+.footer .footer-top .socials .socials-item {
+    margin-right: 6px;
+    margin-bottom: 20px;
+}
+.footer .footer-top .socials .socials-item:last-of-type {
+    margin-bottom: 0;
+}
+@media (min-width: 992px) {
+    .footer .footer-top .socials .socials-item {
+        margin-right: 26px;
+        margin-bottom: 0;
+    }
+    .footer .footer-top .socials .socials-item:last-of-type {
+        margin-right: 0;
+    }
+}
+.footer .footer-top .socials .logo {
+    width: 109px;
+    height: 109px;
+}
+.footer .footer-bottom {
+    padding: 16px 0 25px 0;
+}
+.footer .footer-bottom .protected {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--bs-primary);
+}
+.footer .footer-bottom .year {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: var(--bs-primary);
+}

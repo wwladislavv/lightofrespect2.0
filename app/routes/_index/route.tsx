@@ -1,26 +1,33 @@
 import type { LinksFunction } from "@remix-run/node";
 
+import {
+    Header, headerLinks,
+    Footer, footerLinks,
+} from "~/components";
+
 import styles from "~/styles/index.css";
 
-import SectionLanding from "./section-landing";
-import SectionHistory from "./section-history";
-import SectionActivity from "./section-activity";
-import SectionAboutUs from "./section-about-us";
-import SectionTeam from "./section-team";
-import SectionGallery from "./section-gallery";
-import SectionHelp from "./section-help";
-import SectionPartners from "./section-partners";
-import SectionContacts from "./section-contacts";
-import Footer from "./footer";
+import {
+    SectionLanding, SectionHistory, SectionActivity,
+    SectionAboutUs, SectionTeam, SectionGallery,
+    SectionHelp, SectionPartners, SectionContacts,
+    sectionGalleryLinks,
+} from "./sections";
+
 
 export const links: LinksFunction = () => [
+    ...headerLinks(),
+    ...footerLinks(),
+    ...sectionGalleryLinks(),
     { rel: "stylesheet", href: styles },
 ];
 
 export default function Index() {
+
     return (
         <main>
-            {/* TODO: Move header outside of SectionLanding  */}
+            <Header />
+
             <SectionLanding />
 
             <SectionHistory />
@@ -37,7 +44,8 @@ export default function Index() {
 
             <SectionPartners />
             
-            <SectionContacts />
+            {/* <SectionContacts
+            /> */}
 
             <Footer />
         </main>

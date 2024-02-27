@@ -1,0 +1,143 @@
+{
+    "title": "Why We Need Your Help?",
+    "description": "Ray of Respect is facing great difficulty, there are urgent requests that cannot be postponed – the fund needs a car to deliver humanitarian aid more effectively and quickly to the residents in Kyiv and in the hot spots.<br /><br />Recently, we provided assistance to elderly people, disabled people, and a children's rehabilitation center in Kyiv. Currently, we are providing humanitarian aid to animals, the Armed Forces of Ukraine, internally displaced persons, and people who remain in the combat zone. Our resources are gradually running out, and we greatly need humanitarian and financial support.",
+    "numbers": {
+        "requestsPerDay": {
+            "value": "10+",
+            "specification": "Requests per day"
+        },
+        "gotHelped": {
+            "value": "1000+",
+            "specification": "Received help"
+        },
+        "categoriesOfNeeds": {
+            "value": "26+",
+            "specification": "Categories of needs"
+        },
+        "checkDaily": {
+            "value": "5000+",
+            "specification": "Average check amount per day"
+        }
+    },
+    "requisites": {
+        "uah": {
+            "tab": "Account in Hryvnia",
+            "companyName": {
+                "title": "Company Name",
+                "value": "CF 'RAY OF RESPECT'"
+            },
+            "address": {
+                "title": "Office Address",
+                "value": "Kyiv, Suzdalska St., 13, floor 2"
+            },
+            "iban": {
+                "title": "IBAN Account (Hryvnia)",
+                "value": "UA07 305299 00000 26009016708022"
+            },
+            "bankName": {
+                "title": "Bank Name",
+                "value": "\"Privatbank\", Hrushevskoho St., 1D, Kyiv, 01001, Ukraine"
+            },
+            "receiverCode": {
+                "title": "Receiver Code",
+                "value": "44845258"
+            },
+            "transactionComment": {
+                "title": "Transaction Comment",
+                "value": "Charitable donation FOR HUMANITARIAN AID"
+            }
+        },
+        "usd": {
+            "tab": "Account in US Dollars",
+            "companyName": {
+                "title": "Company Name",
+                "value": "CF LIGHT OF RESPECT"
+            },
+            "address": {
+                "title": "Company Address",
+                "value": "13/2 Suzdalska St., Kyiv, 01001, Ukraine"
+            },
+            "iban": {
+                "title": "IBAN Code (US Dollar)",
+                "value": "UA54 305299 00000 26001006708494"
+            },
+            "bankName": {
+                "title": "Name of the bank",
+                "value": "JSC CB \"Privatbank\", 1D Hrushevskoho St., Kyiv, 01001, Ukraine"
+            },
+            "receiverCode": {
+                "title": "Bank SWIFT Code",
+                "value": "PBANUA2XXXX"
+            },
+            "transactionComment": {
+                "title": "Purpose of payment",
+                "value": "Charitable donation FOR HUMANITARIAN AID"
+            }
+        },
+        "eur": {
+            "tab": "Account in Euro",
+            "companyName": {
+                "title": "Company Name",
+                "value": "CF LIGHT OF RESPECT"
+            },
+            "address": {
+                "title": "Company Address",
+                "value": "13/2 Suzdalska St., Kyiv, 01001, Ukraine"
+            },
+            "iban": {
+                "title": "IBAN Code (Euro)",
+                "value": "UA87 305299 00000 26002026709751"
+            },
+            "bankName": {
+                "title": "Name of the bank",
+                "value": "JSC CB \"Privatbank\", 1D Hrushevskoho St., Kyiv, 01001, Ukraine"
+            },
+            "receiverCode": {
+                "title": "Bank SWIFT Code",
+                "value": "PBANUA2X"
+            },
+            "transactionComment": {
+                "title": "Purpose of payment",
+                "value": "Charitable donation FOR HUMANITARIAN AID"
+            }
+        },
+        "crypto": {
+            "tab": "Crypto Account",
+            "BUSD": {
+                "title": "BUSD Address for Deposit",
+                "value": "Oxaf6b75e85e54928986855ad53808 fa2c823c3fe"
+            },
+            "BUSDNetwork": {
+                "title": "Network",
+                "value": "BNB Smart Chain (BEP20)"
+            },
+            "ETH": {
+                "title": "ETH Address for Deposit",
+                "value": "Oxaf6b75e85e54928986855ad53808 fa2c823c3fe"
+            },
+            "ETHNetwork": {
+                "title": "Network",
+                "value": "Ethereum (ERC20)"
+            },
+            "USDT": {
+                "title": "USDT Address for Deposit",
+                "value": "TJyPKRH8fxtUdrf1K1NFZm9vd3z9V yHrOh"
+            },
+            "USDTNetwork": {
+                "title": "Network",
+                "value": "Tron (TRC20)"
+            },
+            "BTC": {
+                "title": "BTC Address for Deposit",
+                "value": "Oxaf6b75e85e54928986855ad53808 fa2c823c3fe"
+            },
+            "BTCNetwork": {
+                "title": "Network",
+                "value": "BNB Smart Chain (BEP20)"
+            }
+        },
+        "paypal": {
+            "value": "mitinaalina1990@gmail.com"
+        }
+    }
+}

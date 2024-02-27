@@ -13,13 +13,17 @@ import PartnerObskuraLogo from '~/images/icons/obskura-logo.png';
 import PartnerPotuzhnoLogo from '~/images/icons/potuzhno.jpg';
 import PartnerSrLogo from '~/images/icons/partner-sr_logo.png';
 
-type Props = any;
+type Props = {
+    title: string;
+};
 
-const SectionPartners = (props: Props) => {
+const SectionPartners = ({
+    title
+}: Props) => {
     return (
         <section className="section-partners">
             <div className="container">
-                <h4 className="title">Партнери</h4>
+                <h4 className="title">{title}</h4>
                 <div className="partners-list d-flex align-items-center justify-content-between flex-wrap">
                     <img
                         src={PartnerHoop4Leven}

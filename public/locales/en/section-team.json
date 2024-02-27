@@ -1,0 +1,23 @@
+{
+    "title": "Team",
+    "members": {
+        "alina": {
+            "name": "Alina Khmur",
+            "position": "Head of the Fund",
+            "photo": "/assets/photos/IMG_2683 2.png",
+            "subject": "“SINCE FEBRUARY 24, 2022, I UNDERSTOOD THAT I WANT TO BE USEFUL TO MY COUNTRY AND PEOPLE, AND NEVER FOR A SECOND DID I CONSIDER LEAVING THE TERRITORY OF UKRAINE.”",
+            "text": "My name is Alina Khmur. Before the full-scale invasion, I worked as a hairdresser-colorist. I am also a former employee of the medical sphere.<br /><br />When the Russian army advanced on the territory of the Kyiv region, and people like me were hiding in the subway seeking safety, I began to provide medical assistance to those in need: I administered IVs, gave injections, bought medicine, and food for lonely pensioners, disabled people, and children. When the number of people in need of help increased, my own resources were not enough anymore, that's when I realized the need to ask for help on social media and the internet. Later, this turned into the creation of this Charitable Foundation.",
+            "socials": {
+                "instagram": "https://www.instagram.com/light_of_respect/"
+            }
+        },
+        "igor": {
+            "name": "Igor Khmur",
+            "position": "Volunteer",
+            "photo": "/assets/photos/IMG_9750.png",
+            "subject": "",
+            "text": "My name is Igor Khmur. I am a DJ and electronic music producer. Before the full-scale war against Ukraine and terror against the civilian population by the Russian Federation, I had promising plans for the future. February 24 became a point of no return for me.<br/><br/> Like many conscious citizens, the very next day I became a volunteer. We started actively helping peaceful residents of Kyiv, as well as the police in the subway, where we slept, and soldiers at checkpoints. At that time, there was quite a high level of panic in Kyiv, but despite the sounds of explosions and constant fear of incoming attacks, we endured all these trials, thanks to the Armed Forces of Ukraine. We endure even now. Unfortunately, our own resources tend to run out, so we had to turn to our audience on social media to raise funds. Later, our fund was created for fundraising and assistance to the Armed Forces of Ukraine, Territorial Defense Forces, and other military units. We also do not forget about internally displaced persons, elderly people in need, and our smaller brothers. But now our goal is to quickly meet the needs of the military. So don't forget to donate to us.",
+            "socials": {}
+        }
+    }
+}

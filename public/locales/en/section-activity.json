@@ -1,0 +1,37 @@
+{
+    "title": "Our Activities",
+    "items": {
+        "1": {
+            "value": "500+",
+            "description": {
+                "value": "internally displaced persons <br /> residents of cities <br /> where hostilities are taking place",
+                "definition": "*clothing, blankets, shoes, medicines, food, hygiene"
+            }
+        },
+        "2": {
+            "value": "700+",
+            "description": {
+                "value": "Armed Forces of Ukraine and Territorial Defense Forces",
+                "definition": "*ammunition, tactical gloves, uniform, <br/> thermal imagers, first aid kits, turnstiles, <br/> medical supplies, bandages, food"
+            }
+        },
+        "3": {
+            "value": "150+",
+            "description": {
+                "value": "people in Kyiv"
+            }
+        },
+        "4": {
+            "value": "10+",
+            "description": {
+                "value": "animal shelters"
+            }
+        }
+    },
+    "warning": "Currently, we are only helping <b>the Armed Forces of Ukraine</b> and people affected by the armed conflict in the city of Kyiv",
+    "helpWithUs": {
+        "title": "Help with Us",
+        "description": "* Any amount is important to us",
+        "requisitesAction": "Make a contribution"
+    }
+}
